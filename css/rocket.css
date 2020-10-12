@@ -58,3 +58,39 @@ body {
     transform: translate(-50%);
     transition: bottom 15s ease;
 }
+
+#cancelButton{
+    position: absolute;
+    left:200px;
+    bottom: 100px;
+    width:75px;
+    height:75px;
+    border-radius: 75px;
+    background: red;
+    border: 4px solid white;
+}
+
+#resetButton{
+    position: absolute;
+    left:300px;
+    bottom: 100px;
+    width:75px;
+    height:75px;
+    border-radius: 75px;
+    background: green;
+    border: 4px solid white;
+
+}
+
+
+#rocket.tookOff {
+    bottom: 2000px;
+}
+
+#rocket.newPosition{
+    bottom : 500px;
+}
+
+.hide{
+    display: none;
+}
